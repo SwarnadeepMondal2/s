@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hi ISHA</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+    body {
+      margin: 0;
+      padding-top: 100px;
+      font-family: Arial, sans-serif;
+      background: url('ishanight (3).jpg') no-repeat center center fixed;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+    }
+
+    .rainbow-header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      text-align: center;
+      padding: 30px 0;
+      font-size: 3rem;
+      font-family: 'Great Vibes', cursive;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+      background-image: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+      background-size: 400% auto;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: rainbowMove 6s linear infinite;
+    }
+
+    @keyframes rainbowMove {
+      0% {
+        background-position: 0% center;
+      }
+      100% {
+        background-position: 100% center;
+      }
+    }
+
+    .content {
+      text-align: center;
+      padding: 60px 20px;
+      backdrop-filter: blur(5px);
+    }
+
+    .next-btn {
+      position: relative;
+      padding: 15px 30px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      background-color: #ff66b2;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 0 15px #ff66b2, 0 0 30px #ff66b2;
+    }
+
+    .next-btn:hover {
+      background-color: #ff1493;
+      box-shadow: 0 0 20px #ff1493, 0 0 40px #ff1493;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <audio autoplay loop>
+    <source src="c:\Users\SWARNADEEP\Desktop\isha\AudioCutter_Khoobsurat Lyrics - Stree 2 _ .mp3" type="audio/mpeg">
+  
+  </audio>
+
+
+  <div class="rainbow-header">Hi👋, ISHA</div>
+
+  <div class="content">
+    <p>You're special, ISHA! 💖</p>
+    <a href="sorry.html">
+      <button class="next-btn">Next</button>
+    </a>
+  </div>
+
+</body>
+</html>
